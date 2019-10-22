@@ -1,0 +1,11 @@
+.ui-button button {
+  height: 60px;
+}
+.ui-button .ui-image {
+  width: 32px;
+  height: 32px;
+}
+.ui-image.item-icon {
+  width: 32px;
+  height: 32px;
+}

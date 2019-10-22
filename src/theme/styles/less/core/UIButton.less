@@ -1,0 +1,35 @@
+@import "../variables/StyleProperties.less";
+
+.ui-button {
+    display: block;
+    background-color: @primary-normal;
+
+    .ui-button-inner {
+        display: block;    
+    }
+
+    button {
+        display: flex;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .ui-label {
+        color: @primary-text-normal;
+    }
+
+    .no-touch &:hover {
+        background-color: @primary-over;
+
+        .ui-label {
+            color: @primary-text-over;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.ui-button {
+  display: block;
+  background-color: #1c2022;
+}
+.ui-button .ui-button-inner {
+  display: block;
+}
+.ui-button button {
+  display: flex;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ui-button .ui-label {
+  color: #828485;
+}
+.no-touch .ui-button:hover {
+  background-color: #222829;
+}
+.no-touch .ui-button:hover .ui-label {
+  color: #f6f6f5;
+}

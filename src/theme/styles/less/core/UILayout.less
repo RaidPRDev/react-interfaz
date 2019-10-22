@@ -1,0 +1,34 @@
+@import "../variables/StyleProperties.less";
+
+.ui-flex {
+    display: flex;
+}
+
+.flex-h-center {
+    justify-content: center;
+}
+
+.flex-v-middle {
+    align-items: center;
+}
+
+.flex-abs-center {
+    .flex-v-middle;
+    .flex-h-center;
+}
+
+.flex-left {
+    justify-content: flex-start;
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+
+    .flex-space {
+        width: 100%;
+    }
+}
