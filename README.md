@@ -1,2 +1,2 @@
 # react-interfaz
-React UI Library
+React UI Library integrated with Redux data service
